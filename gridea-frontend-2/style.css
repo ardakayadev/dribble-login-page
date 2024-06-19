@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+label{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;		
+}
+
+.container{
+	display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.leftSide{
+	background: #FFCC81;
+	max-width: 430px;	
+	min-width: 250px;
+}
+
+.leftSide .items{
+	margin-top: 20%;
+	margin-left: 10%;
+}
+
+.leftSide .image{
+	margin-top: 30%;
+}
+
+.rightSide{
+	background: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	border:solid #FFCC81;
+	border-radius: 5px;
+}
+
+.rightSide .login .socialButtons{
+    display: flex;
+    flex-direction: row;	
+}
+
+.rightSide .login .socialButtons .google{
+	width: 294px;
+    height: 48px;
+    background: #3F96D4;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+}
+
+.rightSide .login .socialButtons .google i{
+	margin: 15px;
+}
+
+.rightSide .login .socialButtons .google span{
+	margin-left: 30px;
+}
+
+.rightSide .login .socialButtons .twitter,.facebook{
+	width: 48px;
+	height: 48px;
+	background: #F2F2F2;
+	border-radius: 5px;	
+	color: #878888;
+
+	margin-left: 20px;
+
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;	
+}
+
+.rightSide .login .line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;	
+    margin: 5px 0px;
+}
+
+.rightSide .login .line span{
+	margin: 25px;
+
+	font-family: Manrope;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	color: #878888;
+
+}
+
+.rightSide .login .line hr{
+	width: 20%;
+    height: 1px;
+    width: 100%;	
+    margin: auto 0;	
+    background-color: #CFCFCF;
+    border: 1px solid #CFCFCF;
+}
+
+.rightSide .login .formArea .names input{
+	width: 185px;
+	height: 48px;
+}
+
+.rightSide .login .formArea .names .formName{
+    display: flex;
+    justify-content: center;	
+    margin-bottom: 50px;
+}
+
+.rightSide .login .formArea .names .formName .fullName{
+ margin-right: 60px;	
+}
+
+.rightSide form input{
+	background: #E5E5E5;
+	border-radius: 5px;
+	height: 45px;		
+	width: 185px;
+	border: 0;
+}
+
+.rightSide .login .formArea .mailPass input{
+	width: 432px;
+	height: 48px;	
+}
+
+.rightSide .mailPass .mail{	
+    margin-bottom: 50px;
+}
+
+.rightSide .mailPass .pass{
+    justify-content: center;
+}
+
+.rightSide .login .terms{
+	display: flex;
+    align-items: center;
+
+	width: 436px;
+	margin-top: 20px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	color: #878888;
+}
+
+.rightSide .login .term{
+	color: #137ECB;
+	text-decoration: underline;
+
+}
+
+.rightSide .login .terms input{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.rightSide .creatingAccount{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;	
+    align-items: center;
+    margin-top: 30px;
+}
+
+.rightSide .creatingAccount .signIn{
+	color: #137ECB;
+    text-decoration: none;
+}
+
+.rightSide .creatingAccount .create{
+	width: 185px;
+    height: 48px;
+    background: #FF467E;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;	
+    color: #FEFEFE;
+    margin-right: 35px;
+}
+
+
